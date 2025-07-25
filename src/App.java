@@ -18,6 +18,7 @@ public class App {
     private final static int BOARD_LIMIT = 9;
     private static Board board;
     public static void main(String[] args) throws Exception {
+        new UIMain(args);
         final var positions = Stream.of(args)
                     .collect(toMap(
                         k -> k.split(";")[0],
@@ -87,7 +88,7 @@ public class App {
             return;
         }
 
-        System.out.printf("Status do jogo: %s", board.getStatus().getLabel());
+        System.out.printf("Status do jogo: %s\n", board.getStatus().getLabel());
         if (board.hasErrors()) {
             System.out.println("Seu jogo contém erros");
         } else {
