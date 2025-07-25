@@ -147,7 +147,7 @@ public class App {
 
         List<List<Space>> spaces = new ArrayList<>();
         for (int i = 0; i < BOARD_LIMIT; i++) {
-            spaces.add(new ArrayList<>())
+            spaces.add(new ArrayList<>());
             for (int j = 0; j < BOARD_LIMIT; j++) {
                 String positionConfig = positions.get("%s,%s".formatted(i, j));
                 Integer expected = Integer.parseInt(positionConfig.split(",")[0]);
