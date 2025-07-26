@@ -115,13 +115,13 @@ dioSudoku/
 
 ### **Screenshots | Capturas de Tela**
 
-**PT-BR:**
+**PT-BR | EN:**
 <div align="center">
-  <h4>Interface Console (CLI)</h4>
+  <h4>Interface Console | Console Interface (CLI)</h4>
   <img src=".assets/console1.png" alt="Console Interface 1" width="400"/>
   <img src=".assets/console2.png" alt="Console Interface 2" width="400"/>
   
-  <h4>Interface Gráfica (Swing)</h4>
+  <h4>Interface Gráfica | Graphical Interface (Swing)</h4>
   <img src=".assets/frame1.png" alt="Swing Interface 1" width="300"/>
   <img src=".assets/frame2.png" alt="Swing Interface 2" width="300"/>
   <img src=".assets/frame3.png" alt="Swing Interface 3" width="300"/>
@@ -130,22 +130,7 @@ dioSudoku/
   <img src=".assets/frame6.png" alt="Swing Interface 6" width="300"/>
 </div>
 
-**EN:**
-<div align="center">
-  <h4>Console Interface (CLI)</h4>
-  <img src=".assets/console1.png" alt="Console Interface 1" width="400"/>
-  <img src=".assets/console2.png" alt="Console Interface 2" width="400"/>
-  
-  <h4>Graphical Interface (Swing)</h4>
-  <img src=".assets/frame1.png" alt="Swing Interface 1" width="300"/>
-  <img src=".assets/frame2.png" alt="Swing Interface 2" width="300"/>
-  <img src=".assets/frame3.png" alt="Swing Interface 3" width="300"/>
-  <img src=".assets/frame4.png" alt="Swing Interface 4" width="300"/>
-  <img src=".assets/frame5.png" alt="Swing Interface 5" width="300"/>
-  <img src=".assets/frame6.png" alt="Swing Interface 6" width="300"/>
-</div>
-
-### **Console Interface (CLI)**
+### **Interface Console | Console Interface (CLI)**
 **PT-BR:**
 - Menu interativo com 8 opções:
   1. **Iniciar um novo jogo** - Cria um novo tabuleiro de Sudoku
@@ -176,7 +161,7 @@ dioSudoku/
 - Real-time input validation
 - Confirmation for destructive actions
 
-### **Swing Interface (GUI)**
+### **Interface Gráfica | Graphical Interface (GUI)**
 **PT-BR:**
 - Interface gráfica moderna (600x600px)
 - 9 setores de 3x3 células
