@@ -14,7 +14,6 @@ import br.com.dio.service.EventListener;
 public class NumberText extends JTextField implements EventListener {
     private final Space space;
 
-
     public NumberText(Space space) {
         this.space = space;
         Dimension dimension = new Dimension(50, 50);
@@ -25,9 +24,9 @@ public class NumberText extends JTextField implements EventListener {
         this.setFont(new Font("Arial", Font.PLAIN, 20));
         this.setHorizontalAlignment(CENTER);
         this.setDocument(new NumberTextLimit());
-        this.setEnabled(!space.isFixed());
-        if (space.isFixed()) {
-            this.setText(space.getActual().toString());
+        this.setEnabled(!this.space.isFixed());
+        if (this.space.isFixed()) {
+            this.setText(this.space.getActual().toString());
         }
         this.getDocument().addDocumentListener(new DocumentListener() {
             private void changeSpace() {

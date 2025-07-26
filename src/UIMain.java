@@ -1,10 +1,5 @@
-import java.awt.Dimension;
 import java.util.stream.Stream;
 
-import javax.swing.JFrame;
-import javax.swing.JPanel;
-import br.com.dio.ui.custom.frame.MainFrame;
-import br.com.dio.ui.custom.panel.MainPanel;
 import br.com.dio.ui.custom.screen.MainScreen;
 
 import static java.util.stream.Collectors.toMap;

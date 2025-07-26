@@ -81,7 +81,7 @@ public class MainScreen {
     }
 
     private void addFinishGameButton(JPanel maiPanel) {
-        finishGameButton = new FinishGameButton(e -> {
+        finishGameButton = new FinishGameButton(_ -> {
             if (boardService.gameIsFinished()) {
                 JOptionPane.showMessageDialog(
                     null, 
@@ -101,7 +101,7 @@ public class MainScreen {
     }
 
     private void addCheckGameStatusButton(JPanel maiPanel) {
-        checkGameStatusButton = new CheckGameStatusButton(e -> {
+        checkGameStatusButton = new CheckGameStatusButton(_ -> {
             var hasErrors = boardService.hasErrors();
             var gameStatus = boardService.getStatus();
             var message = switch(gameStatus) {
@@ -117,7 +117,7 @@ public class MainScreen {
     }
 
     private void addResetButton(JPanel maiPanel) {
-        resetGameButton = new ResetButton(e -> {
+        resetGameButton = new ResetButton(_ -> {
             var dialogResult = JOptionPane.showConfirmDialog(
                 null, 
                 "Deseja realmente reiniciar o jogo?", 
